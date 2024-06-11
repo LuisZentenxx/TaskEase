@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="welcome">Welcome to TaskEase</string>
+    <string name="categories">Categories</string>
+</resources>
