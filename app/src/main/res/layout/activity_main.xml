@@ -30,10 +30,15 @@
         android:layout_height="wrap_content"
         android:text="@string/categories"
         android:fontFamily="@font/inter_medium"
-        android:layout_marginVertical="4dp"
         android:layout_marginHorizontal="32dp"
-        android:textColor="@color/white"
-        >
+        android:textColor="@color/subtitleText">
     </androidx.appcompat.widget.AppCompatTextView>
+
+    <!-- RecyclerView Categories -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
